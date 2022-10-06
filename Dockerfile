@@ -8,6 +8,6 @@ RUN npm run build
 
 ENV NODE_ENV development
 
-EXPOSE 300
+EXPOSE 3000
 
 CMD ["npx", "serve", "build"]
